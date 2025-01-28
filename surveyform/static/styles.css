@@ -1,0 +1,103 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white; /* Soft pastel peach for a calming background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: #FAE0DB; /* White container for contrast */
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    text-align: center;
+    border: 4px solid #B6B7D1; /* Lavender-gray border */
+}
+
+/* Header styling */
+h1 {
+    color: black; /* Rich lavender-indigo for the heading */
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Form labels (questions) */
+label {
+    font-size: 16px;
+    color: #000000; /* Black color for the questions */
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* Input fields */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #B6B7D1; /* Lavender-gray border */
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #FFCCE1;
+    box-shadow: 0 0 5px rgba(229, 17, 169, 0.5);
+}
+
+/* Submit button */
+input[type="submit"] {
+    background-color: white; /* Lavender-indigo background */
+    color: #000000; /* White text */
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+input[type="submit"]:hover {
+    background-color: #f582A7; /* Lighter lavender-gray on hover */
+    transform: scale(1.05);
+     /* Slight scale effect */
+}
+
+/* Additional styling for mobile responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        font-size: 14px;
+    }
+}
+/* Styling for the instruction line */
+.instructions {
+    font-size: 14px; /* Small, clear font size */
+    color: #7068BD; /* Lavender-indigo color */
+    margin-bottom: 20px;
+    font-weight: bold; /* Make it stand out slightly */
+    text-align: center;
+}
