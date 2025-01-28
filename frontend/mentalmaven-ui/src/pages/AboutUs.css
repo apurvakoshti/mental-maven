@@ -1,0 +1,38 @@
+.about-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAE0DB; /* Same background color as home page */
+  height: 85vh; /* Full viewport height */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center; /* Center-align text inside the div */
+}
+
+.about-us .content {
+  max-width: 50%; /* Limit the content width for readability */
+  padding: 20px;
+  text-align: center;
+}
+
+.about-us h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about-us p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-top: 10px;
+  color: #DA0C81;
+  font-weight: bold;
+  max-width: 600px; /* Restrict paragraph width for better readability */
+}
+.logo{
+  border-radius: 40%;
+}

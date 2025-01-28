@@ -1,0 +1,96 @@
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FAE0DB;
+    height: 88vh; /* Increase height to fill the entire viewport */
+    padding: 10px 20px; /* Adjust padding for balance */
+    overflow: hidden; /* Ensure no overflow */
+  }
+  .hero-text {
+    max-width: 45%; /* Adjust max-width for balance */
+    margin-left: 15%; /* Reduced margin to avoid pushing too far right */
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+  }
+ 
+  .hero-text h1 {
+    font-size: 3rem;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color:black;
+    text-transform: uppercase; /* Adds emphasis */
+    letter-spacing: 2px; /* Adds spacing for a more modern look */
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+.hero-text h2 {
+    font-size: 2.2rem;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+     color: #750550; 
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+.hero-text h1 .highlight {
+    color: #E95793; /* Apply your desired color to "is" */
+    text-decoration: underline;
+}
+
+.hero-text h1, .hero-text h2{
+    text-align: center;
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+.hero-buttons {
+    margin-top: 20px; /* Add some spacing */
+    display: flex;
+    justify-content: center; /* Center the buttons */
+  }
+
+  .register-btn,
+  .login-btn {
+    margin-right: 10px;
+    padding: 5px 15px; /* Reduced padding for smaller buttons */
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.3rem;
+    transition: background-color 0.5s ease; /* Adjust font size for balance */
+  }
+
+  .register-btn:hover,
+  .login-btn:hover{
+    background-color: #F582A7; 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  .hero-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%; /* Define width for better scaling */
+    max-width: 600px; /* Limit maximum width for better responsiveness */
+  }
+  .hero-photo img {
+    width: 100%; /* Make the image responsive */
+    height: auto; /* Keep aspect ratio */
+    max-width: 500px; /* Limit image width to avoid large images */
+    border-radius: 10px; /* Optional: for rounded corners */
+  }
+  
+  /* General Body Settings */
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Ensure no horizontal scroll */
+  }
+  

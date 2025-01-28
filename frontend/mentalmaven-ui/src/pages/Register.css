@@ -1,0 +1,82 @@
+/* Container Styling */
+.register-container {
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #FAE0DB;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 4px solid #B6B7D1; 
+  }
+  
+  .register-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Form Styling */
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+  }
+  
+  .form-group {
+    text-align: center;
+  }
+  
+  /* Question Heading */
+  .form-group p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .register-form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .register-form input:focus {
+    outline: none;
+    border-color: #FFCCE1;
+    box-shadow: 0 0 5px rgba(229, 17, 169, 0.5);
+  }
+  
+  /* Label Below Input */
+  .register-form label {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Submit Button Styling */
+  .proceed-btn {
+    align-self: center;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .proceed-btn:hover {
+    background-color: #F582A7;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+  }
+  
+  .proceed-btn:active {
+    background-color: #004494;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  

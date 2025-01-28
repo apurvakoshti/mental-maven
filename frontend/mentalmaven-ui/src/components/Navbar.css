@@ -1,0 +1,67 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px; /* Reduced padding to lower the height */
+  background-color: #B6B7D1; /* Background color for the navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for better separation from content */
+}
+
+.logo {
+  display: flex;
+  align-items: center; /* Ensure logo is vertically centered */
+  gap: 10px;
+  font-size: 1.5rem; /* Adjust font size for better balance */
+  font-weight: bold;
+  color: black;
+  cursor: pointer; /* Make the logo interactive */
+  margin-right: 15px;
+}
+
+.logo-image{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 10px; /* Reduce gap slightly to fit more items */
+}
+
+.nav-links li {
+  background-color: white;
+  padding: 5px 15px; /* Reduced padding to lower navbar height */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.3rem; /* Slightly smaller font for better balance */
+  font-weight: bold;
+  color: black; /* Text color for contrast */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  border-color: black;
+}
+
+.nav-links li:hover {
+  background-color: #F582A7; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);/* Slightly darker red on hover */
+}
+
+/* Remove default link styles */
+.nav-links li a {
+text-decoration: none; /* Removes underline */
+color: black; /* Ensures the link text color is black */
+}
+
+.nav-links li a:hover {
+color: white; /* Change color when hovered to white for better contrast */
+}
+
+
+/* General page adjustments */
+body {
+  margin: 0; /* Remove default margin for body */
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
